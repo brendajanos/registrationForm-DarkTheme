@@ -1,0 +1,70 @@
+.Modal {
+    max-width: 400px;
+    color: #ffffffb9;
+    width: 100%;
+    margin: 100px auto;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-image: linear-gradient(#343a3f 0%, #232528 100%);
+    box-shadow: 5px 5px 35px #1e1e1e;
+}
+
+.Modal input[type='email'],
+.Modal input[type='password'],
+.Modal input[type='date'] {
+    width: 100%;
+    text-indent: 5px;
+    height: 40px;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 7px 7px 15px rgb(39, 39, 39), inset -7px -7px 20px #4b4b4b36, 0px 0px 4px rgba(0, 0, 0, 0.01);
+}
+
+.Modal input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #ffffffb9;
+    padding: 20px 10px 20px 5px;
+}
+
+.Modal input[type='checkbox'] {
+    filter: hue-rotate(42deg);
+}
+
+.Modal input[type='submit'] {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffffb9;
+    align-items: center !important;
+    text-align: center !important;
+    background-image: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+    box-shadow: 20px 20px 60px #212121, -20px -20px 60px #2d2d2d;
+    margin-top: 15px;
+}
+
+.Modal input[type='submit']:hover {
+    background-image: linear-gradient(to left, #4669bb 0%, #8e54e9 51%, #7474bf 100%);
+}
+
+.Modal label {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.select {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-image: linear-gradient(#343a3f 0%, #232528 100%);
+    box-shadow: 5px 5px 35px #1e1e1e;
+}
